@@ -1,0 +1,70 @@
+.responsive-table {
+  width: 100%;
+  table-layout: fixed;
+  overflow-x: auto;
+}
+
+.time-slot {
+  border-right: none;
+  white-space: nowrap;
+}
+.weekly-schedule-container {
+  font-family: 'Arial', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.date-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.date-navigation button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.date-navigation label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timezone-selector {
+  margin-bottom: 20px;
+}
+
+.timezone-selector label {
+  margin-right: 10px;
+}
+
+.schedule-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule-table table td div {
+  margin-bottom: 5px;
+  white-space: nowrap; /* Avoid line breaks */
+}
+
+.schedule-table table td.Past {
+  background-color: #f2f2f2;
+}
+
+.schedule-table table td input {
+  margin-top: 5px;
+}
+.time-slot {
+  border-right: none;
+}
+
